@@ -133,7 +133,13 @@ namespace StatisticAnalysis
                 chart1.Series.Add(series);
             }
         }
+        private void btnOpenRoman_Click(object sender, EventArgs e)
+        {
+        }
 
+        private void btnForecastRoman_Click(object sender, EventArgs e)
+        {
+        }
         private void DrawForecast(List<BadRoadRecord> records, int window, int forecastCount)
         {
             foreach (BadRoadRecord record in records)
