@@ -117,7 +117,7 @@ namespace StatisticAnalysis
 
             Legend legend = new Legend("Legend");
             legend.Docking = Docking.Right;
-            chart1.Legends.Add(legend);
+            chart1.Legends.Add(legend); 
 
             foreach (BadRoadRecord record in records)
             {
