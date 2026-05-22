@@ -115,11 +115,10 @@ namespace StatisticAnalysis
             }
 
             return
-                $"{name}:\r\n" +
-                $"Максимальное изменение: " +
-                $"{maxPercentChange:F2}% в {year} году\r\n" +
-                $"Абсолютное изменение: " +
-                $"{absoluteChange:N0}\r\n";
+    $"Показатель: {name}\r\n" +
+    $"Год максимального изменения: {year}\r\n" +
+    $"Процент изменения: {maxPercentChange:F2}%\r\n" +
+    $"Абсолютное изменение: {absoluteChange:N0}\r\n";
         }
     }
 }
