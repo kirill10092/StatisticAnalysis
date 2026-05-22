@@ -50,6 +50,7 @@
     <Compile Include="BadRoadRecord.cs" />
     <Compile Include="BadRoadService.cs" />
     <Compile Include="MigrationRecord.cs" />
+    <Compile Include="MigrationService.cs" />
     <Compile Include="MovingAverageForecaster.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
