@@ -14,10 +14,10 @@
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageKirill = new System.Windows.Forms.TabPage();
             this.textBoxAnalysis = new System.Windows.Forms.TextBox();
@@ -37,6 +37,8 @@
             this.btnOpenRoman = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPageKirill.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numPeriod)).BeginInit();
@@ -106,10 +108,10 @@
             // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            chartArea10.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea10);
+            legend10.Name = "Legend1";
+            this.chart1.Legends.Add(legend10);
             this.chart1.Location = new System.Drawing.Point(500, 24);
             this.chart1.Name = "chart1";
             this.chart1.Size = new System.Drawing.Size(650, 450);
@@ -147,6 +149,8 @@
             // 
             // tabPageRoman
             // 
+            this.tabPageRoman.Controls.Add(this.label4);
+            this.tabPageRoman.Controls.Add(this.label3);
             this.tabPageRoman.Controls.Add(this.textBoxRoman);
             this.tabPageRoman.Controls.Add(this.numWindowRoman);
             this.tabPageRoman.Controls.Add(this.numYearsRoman);
@@ -174,24 +178,24 @@
             // 
             // numWindowRoman
             // 
-            this.numWindowRoman.Location = new System.Drawing.Point(159, 129);
+            this.numWindowRoman.Location = new System.Drawing.Point(195, 85);
             this.numWindowRoman.Name = "numWindowRoman";
             this.numWindowRoman.Size = new System.Drawing.Size(90, 22);
             this.numWindowRoman.TabIndex = 3;
             // 
             // numYearsRoman
             // 
-            this.numYearsRoman.Location = new System.Drawing.Point(40, 129);
+            this.numYearsRoman.Location = new System.Drawing.Point(195, 32);
             this.numYearsRoman.Name = "numYearsRoman";
             this.numYearsRoman.Size = new System.Drawing.Size(90, 22);
             this.numYearsRoman.TabIndex = 2;
             // 
             // chartRoman
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartRoman.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartRoman.Legends.Add(legend4);
+            chartArea9.Name = "ChartArea1";
+            this.chartRoman.ChartAreas.Add(chartArea9);
+            legend9.Name = "Legend1";
+            this.chartRoman.Legends.Add(legend9);
             this.chartRoman.Location = new System.Drawing.Point(500, 24);
             this.chartRoman.Name = "chartRoman";
             this.chartRoman.Size = new System.Drawing.Size(650, 450);
@@ -246,6 +250,25 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Кол-во лет для средней";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(291, 36);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "N лет прогноза";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(291, 91);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(161, 16);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Кол-во лет для средней";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -292,5 +315,7 @@
         private System.Windows.Forms.TextBox textBoxRoman;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }
