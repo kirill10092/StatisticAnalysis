@@ -6,6 +6,6 @@
 
         public double Immigrants { get; set; }
 
-        public double Emigrants { get; set; }
+        public double Emigrants { get; set; } //миграция
     }
 }
