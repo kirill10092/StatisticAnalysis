@@ -25,8 +25,8 @@
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageKirill = new System.Windows.Forms.TabPage();
             this.textBoxAnalysis = new System.Windows.Forms.TextBox();
@@ -108,10 +108,10 @@
             // 
             // chart1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            chartArea5.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chart1.Legends.Add(legend5);
             this.chart1.Location = new System.Drawing.Point(375, 20);
             this.chart1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chart1.Name = "chart1";
