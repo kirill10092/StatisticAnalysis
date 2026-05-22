@@ -25,8 +25,8 @@
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageKirill = new System.Windows.Forms.TabPage();
             this.textBoxAnalysis = new System.Windows.Forms.TextBox();
@@ -56,7 +56,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(900, 528);
+            this.tabControl1.Size = new System.Drawing.Size(1240, 528);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPageKirill
@@ -74,20 +74,20 @@
             this.tabPageKirill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPageKirill.Name = "tabPageKirill";
             this.tabPageKirill.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPageKirill.Size = new System.Drawing.Size(892, 502);
+            this.tabPageKirill.Size = new System.Drawing.Size(1232, 502);
             this.tabPageKirill.TabIndex = 0;
             this.tabPageKirill.Text = "Вариант 16";
             this.tabPageKirill.UseVisualStyleBackColor = true;
             // 
             // textBoxAnalysis
             // 
-            this.textBoxAnalysis.Location = new System.Drawing.Point(16, 288);
+            this.textBoxAnalysis.Location = new System.Drawing.Point(16, 385);
             this.textBoxAnalysis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxAnalysis.Multiline = true;
             this.textBoxAnalysis.Name = "textBoxAnalysis";
             this.textBoxAnalysis.ReadOnly = true;
             this.textBoxAnalysis.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxAnalysis.Size = new System.Drawing.Size(338, 98);
+            this.textBoxAnalysis.Size = new System.Drawing.Size(532, 98);
             this.textBoxAnalysis.TabIndex = 6;
             // 
             // numPeriod
@@ -108,14 +108,14 @@
             // 
             // chart1
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chart1.Legends.Add(legend5);
-            this.chart1.Location = new System.Drawing.Point(375, 20);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(552, 20);
             this.chart1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chart1.Name = "chart1";
-            this.chart1.Size = new System.Drawing.Size(488, 366);
+            this.chart1.Size = new System.Drawing.Size(673, 366);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
             // 
@@ -125,7 +125,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(16, 97);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(338, 165);
+            this.dataGridView1.Size = new System.Drawing.Size(532, 284);
             this.dataGridView1.TabIndex = 4;
             // 
             // btnForecast
@@ -183,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 528);
+            this.ClientSize = new System.Drawing.Size(1240, 528);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
